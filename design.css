@@ -1,4 +1,4 @@
-* {font-family: 'Cupid_Deer', Arial, serif ; font-size: 20px; font-weight: lighter}
+* {font-family: 'kenyan_coffee', Arial, serif ; font-size: 20px; font-weight: lighter}
 
 p {text-align: justify;
 	padding: 10px; 
@@ -45,7 +45,7 @@ aside
 	max-height: 600px}
 	
 a:link {color: purple;
-	font-family: 'Cupid_Deer', Arial, serif ;
+	font-family: 'kenyan_coffee', Arial, serif ;
 	text-decoration:none;
 	font-weight: bold;
 	font-style:italic ;}
@@ -67,7 +67,7 @@ body
 	margin: auto;
 	margin-top: 20px; 
 	margin-bottom: 20px;
-	background-image: url("images/fond1.png");} 
+	background-image: url("images/fond.jpg");} 
 
 h1 {text-align: center;
 	font-size: 34px;}
@@ -84,9 +84,5 @@ header
 	margin-bottom: 10px; 
 	border-radius: 5px;}
 	
-@font-face { font-family: 'MaPoliceAmatic'; src: url('polices/Amatic-Bold.ttf');}	
-	
-@font-face { font-family: 'Silent_Asia'; src: url('polices/Silent_Asia.otf');}	
-	
-@font-face { font-family: 'Cupid_Deer'; src: url('polices/Cupid_Deer.ttf');}
+@font-face { font-family: 'kenyan_coffee'; src: url('polices/kenyan_coffee.ttf');}	
 	
