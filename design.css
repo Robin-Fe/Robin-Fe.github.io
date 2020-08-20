@@ -1,21 +1,34 @@
-* {font-family: 'kenyan_coffee', Arial, serif ; font-size: 20px; font-weight: lighter}
+* {font-family: 'kenyan_coffee', Arial, serif ; font-size: 30px; font-weight: lighter}
 
 p {text-align: justify;
-	padding: 10px; 
+	padding: 15px; 
 	margin: auto;
 	overflow: auto;}
-	
-footer {text-align: right; 
-	font-style: italic;
-	bottom:0px;
-	clear: both;}
-	
-nav { border-radius: 5px; 
-	float: left; 
-	width: 10%; 
-	background-color: white;} 
 
-section { margin-left: 160px; 
+header 
+	{margin-left: auto;
+	padding-top:3%; 
+	color: white; 
+	height: 100px;
+	/*background-image: url("images/banniere.jpg");*/
+	background-repeat: no-repeat; 
+	margin-bottom: 10px; 
+	border-radius: 5px;
+	clear: both;
+	}
+	
+	
+nav { 
+	margin-left: auto;
+	color: white;
+	height: 110px;
+	border-radius: 5px; 
+	width: 100%; 
+	background-color: #C0C0C0;
+	margin-bottom: 20px; 
+	clear: both;} 
+
+section {
 	overflow: auto;
 	max-height: 40%} 
 
@@ -23,66 +36,112 @@ article, aside
 	{ display: inline-block; 
 	vertical-align: top; 
 	text-align: justify; 
-	overflow: auto;} 
+	clear: both;} 
 
 article 
-	{margin-left: 10px;
-	width: 70%;
-	background-color: #C0C0C0; 
+	{
+	position: relative; 
+	margin-left: auto;
+	width: 80%;
+	background-color: #706b64; 
 	border-radius: 5px; 
 	color: black; 
 	padding: 10px;}
 
 aside 
-	{ position: relative; 
-	width: 20%; 
-	background-color: #706b64; 
+	{ 
+	width: 15%; 
+	background-color: #C0C0C0; 
 	border-radius: 5px; 
-	margin-left: 10px; 
 	padding: 10px;  
-	color: white; 
-	font-size: 0.9em;
+	color: black; 
+	font-size: 20px;
 	max-height: 600px}
 	
-a:link {color: purple;
+footer {
+	margin-left: 40%;
+	font-style: italic;
+	bottom:0px;
+	clear: both;
+	text-align: center;
+	color: white;}
+	
+a:link {color: DarkBlue;
+	font-size: 30px;
 	font-family: 'kenyan_coffee', Arial, serif ;
 	text-decoration:none;
-	font-weight: bold;
-	font-style:italic ;}
+	font-weight: bold;}
 
-a:visited {color: magenta;}
+a:visited {color: MidnightBlue;}
 
-a:hover {color: grey;}
+a:hover {color: Navy;}
 
-a:active {color: red;}	
+a:active {color: Indigo;}	
 
 .mini 
-	{margin-left: 20%; 
-	width: 150px;
-	border: 1px solid white;
-	border-radius: 5px;}
+	{ 
+	width: 60px;
+	margin-left:10px;
+	margin-right:10px;
+	}
+	
+.entete 
+	{
+	display: block;
+	left:200%;
+	float:left;
+	position:relative;
+	padding-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	width: 200px;
+	height: 70px;
+	border-radius: 5px;
+	background-image: url("images/bouton.png");
+	background-size: cover;
+	}
+	
+.bouton 
+	{
+
+	display: block;
+	left:43%;
+	float:left;
+	position:relative;
+	padding-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	width: 200px;
+	height: 70px;
+	border-radius: 5px;
+	background-image: url("images/bouton.png");
+	background-size: cover;
+	}
+	
+img {
+	max-width:100%;
+	max-height:auto;
+	}
 	
 body 
 	{width: 95%;
 	margin: auto;
 	margin-top: 20px; 
 	margin-bottom: 20px;
-	background-image: url("images/fond.jpg");} 
+	background-image: url("images/fond.jpg");
+	background-size: cover;} 
 
 h1 {text-align: center;
 	font-size: 34px;}
 	
 h2 {font-size: 28px;
 	margin-left: 4%}
-	
-header 
-	{margin-left: auto;
-	width: 80%; 
-	height: 100px;
-	background-image: url("images/banniere.jpg");
-	background-repeat: no-repeat; 
-	margin-bottom: 10px; 
-	border-radius: 5px;}
-	
+
+table
+	{
+	margin: 10px;
+	padding-top: 10px;
+	}
+
 @font-face { font-family: 'kenyan_coffee'; src: url('polices/kenyan_coffee.ttf');}	
 	
