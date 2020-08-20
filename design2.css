@@ -1,0 +1,147 @@
+* {font-family: 'kenyan_coffee', Arial, serif ; font-size: 30px; font-weight: lighter}
+
+p {text-align: justify;
+	padding: 15px; 
+	margin: auto;
+	overflow: auto;}
+
+header 
+	{margin-left: auto;
+	padding-top:3%; 
+	color: white; 
+	height: 100px;
+	/*background-image: url("images/banniere.jpg");*/
+	background-repeat: no-repeat; 
+	margin-bottom: 10px; 
+	border-radius: 5px;
+	clear: both;
+	}
+	
+	
+nav { 
+	margin-left: auto;
+	color: white;
+	height: 110px;
+	border-radius: 5px; 
+	width: 100%; 
+	background-color: #C0C0C0;
+	margin-bottom: 20px; 
+	clear: both;} 
+
+section {
+	overflow: auto;
+	max-height: 40%} 
+
+article, aside 
+	{ display: inline-block; 
+	vertical-align: top; 
+	text-align: justify; 
+	clear: both;} 
+
+article 
+	{
+	position: relative; 
+	margin-left: auto;
+	width: 80%;
+	background-color: #706b64; 
+	border-radius: 5px; 
+	color: black; 
+	padding: 10px;}
+
+aside 
+	{ 
+	width: 15%; 
+	background-color: #C0C0C0; 
+	border-radius: 5px; 
+	padding: 10px;  
+	color: black; 
+	font-size: 20px;
+	max-height: 600px}
+	
+footer {
+	margin-left: 40%;
+	font-style: italic;
+	bottom:0px;
+	clear: both;
+	text-align: center;
+	color: white;}
+	
+a:link {color: DarkBlue;
+	font-size: 30px;
+	font-family: 'kenyan_coffee', Arial, serif ;
+	text-decoration:none;
+	font-weight: bold;}
+
+a:visited {color: MidnightBlue;}
+
+a:hover {color: Navy;}
+
+a:active {color: Indigo;}	
+
+.mini 
+	{ 
+	width: 60px;
+	margin-left:10px;
+	margin-right:10px;
+	}
+	
+.entete 
+	{
+	display: block;
+	left:200%;
+	float:left;
+	position:relative;
+	padding-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	width: 200px;
+	height: 70px;
+	border-radius: 5px;
+	background-image: url("images/bouton.png");
+	background-size: cover;
+	}
+	
+.bouton 
+	{
+
+	display: block;
+	left:43%;
+	float:left;
+	position:relative;
+	padding-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	width: 200px;
+	height: 70px;
+	border-radius: 5px;
+	background-image: url("images/bouton.png");
+	background-size: cover;
+	}
+	
+img {
+	max-width:100%;
+	max-height:auto;
+	}
+	
+body 
+	{width: 95%;
+	margin: auto;
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	background-image: url("images/fond.jpg");
+	background-size: cover;} 
+
+h1 {text-align: center;
+	font-size: 34px;}
+	
+h2 {font-size: 28px;
+	margin-left: 4%}
+
+table
+	{
+	margin: 10px;
+	padding-top: 10px;
+	}
+
+@font-face { font-family: 'kenyan_coffee'; src: url('polices/kenyan_coffee.ttf');}	
+	
