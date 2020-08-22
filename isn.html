@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="design.css" rel="stylesheet">
+		<title>Site de Robin FELIUS - Projet : ISN</title> 
+	</head>
+	<body>
+		<header>
+			<h1>Projet d'ISN : Jeu textuel en Python</h1>
+		</header>
+		
+		<nav>
+			<table>
+				<tr>
+					<td><a class="entete" href="index.html">Accueil</a></td>
+					<td><a class="entete" href="qui.html">Qui suis-je ?</a></td>
+					<td><a class="entete" href="projets.html">Projets</a></td>
+					<td><a class="entete" href="contact.html">Contact</a></td>
+				</tr>
+			</table>
+		</nav>
+		
+		<section>
+			<aside>
+				<h1>Projets</h1>
+				<ul>
+					<li><a href="maison.html"><img src="images/maison/maison.png" class="mini" alt="maison" title="maison" />Maison domotisée </a></li>
+					<li><a href="isn.html"><img src="images/isn/jeu.png" class="mini" alt="isn" title="isn" /> Projet ISN </a></li>
+					<li><a href="pacman.html"><img src="images/pacman/menu.png" class="mini" alt="pacman" title="pacman" /> Projet Pacman </a></li>
+				</ul>
+			</aside> 
+			<article>
+				<p>
+				Vous pouvez télécharger ci-dessous le rapport .pdf détaillé, présenté lors de notre soutenance.
+				</p>
+				<a class="bouton" href="documents/Memoire_ISN_FELIUS_Robin.pdf">Télécharger</a>
+				</br></br></br></br><p>
+				Vous pouvez télécharger ci-dessous le jeu (fichier.py) dans son état le plus abouti.
+				</p>
+				<a class="bouton" href="documents/Jeu_PI_FELIUS_Robin.py">Télécharger</a>
+				</br></br></br></br><h1>Sujet</h1>
+				<p> 
+				Lors de mon année de terminale S, dans le cadre de l'option Informatique et Sciences du Numérique, nous avons travaillé en trinôme pendant 6 mois sur un projet de jeu textuel en Python.
+				</p>
+				
+				</br></br><h1>Le Jeu</h1>
+				<p>
+				Nous avons choisi de développer un jeu textuel de role-play où le joueur incarne un héros, piégé dans un manoir. Son but est alors de trouver le moyen de sortir de ce manoir. Il comporte 3 étages : un sous sol, le rez-de chaussée et l'étage, dans lesquels se trouvent plusieurs pièces. Le joueur doit entrer au clavier l'action qu'il souhaite effectuer (se déplacer dans une autre pièce, observer la pièce dans laquelle il se trouve, utiliser ou ramasser des objets ...)
+				</p>
+				<img class="moyen" src="images/isn/jeu.png" alt="jeu" title="jeu" />
+				<p class="legende">
+				| Capture d'écran du jeu
+				</p>
+				<p>
+				Lorsqu'il change de pièce, un dé virtuel est lancé pour définir s'il est attaqué par un monstre ou non. Dans le premier cas, un combat commence. Il se déroule au tour par tour sous un principe ressemblant au pierre, feuille, ciseau. Le joueur peut soit attaquer, soit se défendre pour étourdir son ennemi en cas d'attaque de celui-ci, se reposer pour récuperer des points d'endurance (nécessaires pour attaquer) ou utiliser un objet. Un dé virtuel est alors lancé pour définir l'action de l'ennemi. Si les points de vie du joueur descendent en dessous de 1, il meurt et doit recommencer le jeu, si les points de vie de l'ennemi descendent en dessous de 1, le joueur remporte le combat et gagne un point d'expérience, lui permettant par la suite de gagner un niveau et d'augmenter ses compétences (points de vie, de défense, ou d'attaque).
+				</p>
+				<img class="moyen" src="images/isn/combat.png" alt="combat" title="combat" />
+				<p class="legende">
+				| Code correspondant au combat
+				</p>
+			</article>
+		</section>
+		
+		<footer>
+			<p>Copyright – FELIUS Robin - Tous droits réservés<br /></p>
+		</footer>
+		
+	</body>
+</html>

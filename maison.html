@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="design.css" rel="stylesheet">
+		<title>Site de Robin FELIUS - Projet : Maison domotisée</title> 
+	</head>
+	<body>
+		<header>
+			<h1>Projet Interdisciplinaire : Maison domotisée</h1>
+		</header>
+		
+		<nav>
+			<table>
+				<tr>
+					<td><a class="entete" href="index.html">Accueil</a></td>
+					<td><a class="entete" href="qui.html">Qui suis-je ?</a></td>
+					<td><a class="entete" href="projets.html">Projets</a></td>
+					<td><a class="entete" href="contact.html">Contact</a></td>
+				</tr>
+			</table>
+		</nav>
+		
+		<section>
+			<aside>
+				<h1>Projets</h1>
+				<ul>
+					<li><a href="maison.html"><img src="images/maison/maison.png" class="mini" alt="maison" title="maison" />Maison domotisée </a></li>
+					<li><a href="isn.html"><img src="images/isn/jeu.png" class="mini" alt="isn" title="isn" /> Projet ISN </a></li>
+					<li><a href="pacman.html"><img src="images/pacman/menu.png" class="mini" alt="pacman" title="pacman" /> Projet Pacman </a></li>
+				</ul>
+			</aside> 
+			<article>
+				<p>
+				Vous pouvez télécharger ci-dessous le rapport .pdf détaillé, présenté lors de notre soutenance.
+				</p>
+				<a class="bouton" href="documents/Memoire_PI_FELIUS_Robin.pdf">Télécharger</a>
+				</br></br></br></br><h1>Sujet</h1>
+				<p> 
+				Lors de mon année de terminale S, nous avons travaillé en trinôme pendant 6 mois sur un projet de maison domotisée, couplé à un enjeu de développement durable.
+				</p>
+				
+				</br></br><h1>Modélisation</h1>
+				<p>
+				J'ai, en premier lieu, modélisé la maison sur laquelle nous avons travaillé, grâce au logiciel Solidworks.
+				</p>
+				<img class="moyen" src="images/maison/maison.png" alt="Maison" title="Maison" />
+				<p class="legende">
+				| Vue des faces sud et est de la maison modélisée
+				</p>
+				
+				</br></br><h1>Pompe à chaleur</h1>
+				<p>
+				J'ai calculé toutes les conductances thermiques pour modéliser sur Matlab Simulink une pompe à chaleur réversible et ses besoins en energie pour maintenir la maison à une température de 20°C.
+				</p>
+				<img class="moyen" src="images/maison/pac.png" alt="pac" title="pac" />
+				<p class="legende">
+				| Modélisation de la PAC avec Matlab Simulink
+				</p>
+				</br></br><h1>Batteries</h1>
+				<p>
+				Grâce aux résultats précédents, j'ai modélisé une premiere version de baterie qui répondait au besoin d'autonomie de 5 jours dans le pire des cas météorologiques et thermiques.
+				</p>
+				<img class="moyen" src="images/maison/bat1.png" alt="batterie1" title="batterie1" />
+				<p class="legende">
+				| Modélisation de la première batterie
+				</p>
+				</br><p>
+				Ce modèle à ensuite été amélioré grâce au modèle de batterie que proposait Matlab, plus cohérent avec la courbe de décharge d'une batterie réelle.
+				</p>
+				<img class="moyen" src="images/maison/bat2.png" alt="batterie2" title="batterie2" />
+				<p class="legende">
+				| Modélisation de la batterie de Matlab
+				</p>
+				</br></br><h1>Panneaux solaires</h1>
+				<p>
+				J'ai calculé la surface nécessaire de panneaux solaires pour recharger les batteries en un temps raisonnable et selon les irradiances moyennes du sed est de la France.
+				</p>
+				<img class="moyen" src="images/maison/pan1.png" alt="panneaux" title="panneaux" />
+				<p class="legende">
+				| Modélisation des panneaux solaires
+				</p>
+				</br><img class="moyen" src="images/maison/pan2.png" alt="pac" title="pac" />
+				<p class="legende">
+				| Efficacité des panneaux solaires en fonction de l'irradiance
+				</p>
+				</br><img class="moyen" src="images/maison/modele.png" alt="panneaux" title="panneaux" />
+				<p class="legende">
+				| Vue globale du modèle Simulink
+				</p>
+			</article>
+		</section>
+		
+		<footer>
+			<p>Copyright – FELIUS Robin - Tous droits réservés<br /></p>
+		</footer>
+		
+	</body>
+</html>
